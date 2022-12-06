@@ -29,14 +29,12 @@ export class SpinWheel extends React.Component {
                     <li>
                         <div className='text'>2</div>
                     </li>
-
                     <li>
                         <div className='text'>3</div>
                     </li>
                     <li>
                         <div className='text'>4</div>
                     </li>
-
                     <li>
                         <div className='text'>5</div>
                     </li>

@@ -24,42 +24,42 @@ export class SpinWheel extends React.Component {
                 <div className='arrow'></div>
                 <ul className={this.state.name}>
                     <li>
-                        <div className='text' contentEditable="true" spellCheck="false">1</div>
+                        <div className='text'>1</div>
                     </li>
                     <li>
-                        <div className='text' contentEditable="true" spellCheck="false">2</div>
-                    </li>
-
-                    <li>
-                        <div className='text' contentEditable="true" spellCheck="false">3</div>
-                    </li>
-                    <li>
-                        <div className='text' contentEditable="true" spellCheck="false">4</div>
+                        <div className='text'>2</div>
                     </li>
 
                     <li>
-                        <div className='text' contentEditable="true" spellCheck="false">5</div>
+                        <div className='text'>3</div>
                     </li>
                     <li>
-                        <div className='text' contentEditable="true" spellCheck="false">6</div>
+                        <div className='text'>4</div>
+                    </li>
+
+                    <li>
+                        <div className='text'>5</div>
                     </li>
                     <li>
-                        <div className='text' contentEditable="true" spellCheck="false">7</div>
+                        <div className='text'>6</div>
                     </li>
                     <li>
-                        <div className='text' contentEditable="true" spellCheck="false">8</div>
+                        <div className='text'>7</div>
                     </li>
                     <li>
-                        <div className='text' contentEditable="true" spellCheck="false">9</div>
+                        <div className='text'>8</div>
                     </li>
                     <li>
-                        <div className='text' contentEditable="true" spellCheck="false">10</div>
+                        <div className='text'>9</div>
                     </li>
                     <li>
-                        <div className='text' contentEditable="true" spellCheck="false">11</div>
+                        <div className='text'>10</div>
                     </li>
                     <li>
-                        <div className='text' contentEditable="true" spellCheck="false">12</div>
+                        <div className='text'>11</div>
+                    </li>
+                    <li>
+                        <div className='text' spellCheck="false">12</div>
                     </li>
                 </ul>
                 <button className='spin-btn' onClick={this.startRotate}>SPIN</button>

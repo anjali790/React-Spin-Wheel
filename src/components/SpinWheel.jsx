@@ -59,7 +59,7 @@ export class SpinWheel extends React.Component {
                         <div className='text'>11</div>
                     </li>
                     <li>
-                        <div className='text' spellCheck="false">12</div>
+                        <div className='text'>12</div>
                     </li>
                 </ul>
                 <button className='spin-btn' onClick={this.startRotate}>SPIN</button>
